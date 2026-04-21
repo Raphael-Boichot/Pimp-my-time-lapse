@@ -51,7 +51,7 @@ Codes are in Matlab but I guess that you are a big boy / girl able to convert th
 ![5h_maximum_01.png](Examples/5h_maximum_01.png)
 5 hours, one image every 10 seconds
 
-![5h_maximum_01.png](Examples/5h_maximum_01.png)
+![5h_maximum_02.png](Examples/5h_maximum_02.png)
 1 hour, one image every 10 seconds (downsampled)
 
 ## Mosaic
