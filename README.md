@@ -10,4 +10,6 @@ Put it on a tripod, fire, come back 5 hours later. All I needed.
 ## The codes
 The codes proposed here are revisited versions of all the oddities roting on my hard drive since years to extract cool images from movies and timelapses. They basically extract individual frames from a movie, plot average, maximum and minimum, do slit-scans and time slices of the batch of frames. Sometimes it gives something cool.
 
+Codes are in Matlab but I guess that you are a big boy / girl able to convert them in Python.
+
 ## Examples
