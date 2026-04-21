@@ -1,6 +1,6 @@
 # Pimp your time lapses
 
-## Because time lapses are boring
+## Because time lapses are boring now
 Doing time lapses was a performance in the 2000's because basically no digital camera was equiped to do this apart from some high end products with remote control. I was cheap so my option was tinkered intervallometers mounted on butchered digital cameras for many years. I was always interested by image fusion like averaging a bunch of images, visualize the flow of time on a still image or taking the maximum of pixels to do circumpolar circles. Which I did, basically with the prototypes of codes proposed here. I even built my own [time lapse machine from a Game Boy Camera](https://github.com/Raphael-Boichot/Mitsubishi-M64282FP-dashcam), because why not.
 
 Now any cheap camera / phone is able to do that.
@@ -9,7 +9,7 @@ I was recently the happy owner of a gifted Osmo Pocket 3. It looks like a super 
 
 Put it on a tripod, fire, come back 5 hours later. All I needed.
 
-## The codes
+## The codes back from the dead
 The codes proposed here are revisited versions of all the oddities roting on my hard drive since years to extract cool images from movies and timelapses from the said Osmo Pocket 3 or any GoPro like camera / phone. They basically extract individual frames from a short movie (1000-2000 images maximum), plot average, maximum and minimum, do slit-scans and time slices of the batch of frames. Sometimes it gives something surprisingly cool.
 
 Codes are in Matlab but I guess that you are a big boy / girl able to convert them in Python or whatever opensource-my-ass langage of your own.
