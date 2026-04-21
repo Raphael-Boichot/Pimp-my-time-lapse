@@ -2,7 +2,7 @@ close all;
 
 % --- Configuration ---
 inputFolder = 'Individual_frames'; 
-outputFolder = 'Fusion_of_frames_Pie'; 
+outputFolder = 'Fusion_of_frames'; 
 if ~exist(outputFolder, 'dir'), mkdir(outputFolder); end
 timestamp = datestr(now, 'yyyy-mm-dd_HH-MM');
 
