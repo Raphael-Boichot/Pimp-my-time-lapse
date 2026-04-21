@@ -17,22 +17,22 @@ Codes are in Matlab but I guess that you are a big boy / girl able to convert th
 # Examples
 ## Circular Slices
 ![5h_circular_slice_01.png](Examples/5h_circular_slice_01.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 30 seconds, time flowing from center to border
 
 ![5h_circular_slice_02.png](Examples/5h_circular_slice_02.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 30 seconds, time flowing from center to border
 
 ![5h_circular_slice_03.png](Examples/5h_circular_slice_03.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 30 seconds, time flowing from center to border
 
 ## Inclined Slice
 ![5h_inclined_slice_01.png](Examples/5h_inclined_slice_01.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 30 seconds, time flowing from bottom left to top right
 
 ## Maximum Projection
 ![5h_maximum_01.png](Examples/5h_maximum_01.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 10 seconds
 
 ## Mosaic
 ![5h_mosaic_01.png](Examples/5h_mosaic_01.png)
-5 hours, one image every 30 seconds
+5 hours, one image every 30 seconds, random time for each block
