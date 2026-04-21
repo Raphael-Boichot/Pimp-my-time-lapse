@@ -3,6 +3,8 @@
 ## Because time lapses are boring
 Doing time lapses was a performance in the 2000's because basically no digital camera was equiped to do this apart from some high end products with remote control. I was cheap so my option was tinkered intervallometers mounted on butchered digital cameras for many years. I was always interested by image fusion like averaging a bunch of images, visualize the flow of time on a still image or taking the maximum of pixels to do circumpolar circles. Which I did, basically with the prototypes of codes proposed here. I even built my own [time lapse machine from a Game Boy Camera](https://github.com/Raphael-Boichot/Mitsubishi-M64282FP-dashcam), because why not.
 
+Now any cheap camera / phone is able to do that.
+
 I was recently the happy owner of a gifted Osmo Pocket 3. It looks like a super camera to ski within avalanches, kill you in wingsuit and generally put you in dangerous situation for fame. I have much less cool hobbies in general and am yet famous. It appears that the Osmo Pocket 3 is also a marvelous time lapse machine in addition to be a quite able stabilized camera for dangerous stuff.
 
 Put it on a tripod, fire, come back 5 hours later. All I needed.
