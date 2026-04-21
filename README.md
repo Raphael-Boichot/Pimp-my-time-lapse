@@ -14,7 +14,7 @@ The codes proposed here are revisited versions of all the oddities roting on my 
 
 Codes are in Matlab but I guess that you are a big boy / girl able to convert them in Python or whatever opensource-my-ass langage of your own.
 
-# Examples
+# Show time
 ## Circular Slices
 ![5h_circular_slice_01.png](Examples/5h_circular_slice_01.png)
 5 hours, one image every 30 seconds, time flowing from center to border
