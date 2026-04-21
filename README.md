@@ -25,12 +25,18 @@ Codes are in Matlab but I guess that you are a big boy / girl able to convert th
 ![5h_circular_slice_03.png](Examples/5h_circular_slice_03.png)
 5 hours, one image every 30 seconds, time flowing from center to border
 
+![5h_circular_slice_03b.png](Examples/5h_circular_slice_03b.png)
+5 hours, one image every 30 seconds (downsampled), time flowing from center to border
+
 ![5h_circular_slice_04.png](Examples/5h_circular_slice_04.png)
 5 hours, one image every 30 seconds, time flowing from center to border
 
 ## Inclined Slice
 ![5h_inclined_slice_01.png](Examples/5h_inclined_slice_01.png)
 5 hours, one image every 30 seconds, time flowing from bottom left to top right
+
+![5h_inclined_slice_01.png](Examples/5h_inclined_slice_01b.png)
+5 hours, one image every 30 seconds (downsampled), time flowing from bottom left to top right
 
 ![5h_inclined_slice_02.png](Examples/5h_inclined_slice_02.png)
 5 hours, one image every 30 seconds, time flowing from bottom left to top right
