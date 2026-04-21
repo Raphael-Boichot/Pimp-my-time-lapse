@@ -7,6 +7,9 @@ close all;
 extensions = {'*.mp4', '*.MP4'};
 listeVideos = [];
 
+% pick a frame every n (and drop the others)
+downsampling = 20;
+
 for ext = extensions
     listeVideos = [listeVideos; dir(ext{1})];
 end
@@ -19,12 +22,12 @@ fprintf('-------------------------------------------\n');
 for i = 1:numVideos
     % Close previous figures to manage memory
     close all;
-    
+
     videoName = listeVideos(i).name;
     fprintf('[%d/%d] Currently processing: %s\n', i, numVideos, videoName);
-    
+
     % Step A: Extract frames from video
-    Image_extraction(videoName); %Extract individual frames
+    Image_extraction(videoName,downsampling); %Extract individual frames, droping some
     run('Image_fusion.m'); %Extract maximum, minimum and averga of all frames
     run('Image_time_slicer.m'); %Create time-slice visualization
     run('Image_time_slicer_diag.m'); %Create time-slit visualization in diagonal
