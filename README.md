@@ -41,6 +41,9 @@ Codes are in Matlab but I guess that you are a big boy / girl able to convert th
 ![5h_inclined_slice_02.png](Examples/5h_inclined_slice_02.png)
 5 hours, one image every 30 seconds, time flowing from bottom left to top right
 
+![5h_inclined_slice_02b.png](Examples/5h_inclined_slice_02b.png)
+5 hours, one image every 30 seconds (downsampled), time flowing from left to right
+
 ## Maximum Projection
 ![5h_maximum_01.png](Examples/5h_maximum_01.png)
 5 hours, one image every 10 seconds
