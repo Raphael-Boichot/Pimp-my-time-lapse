@@ -3,16 +3,9 @@ clear;
 close all;
 
 % --- 1. List all MP4 files in the directory ---
-% Using a cell array of patterns to catch both lowercase and uppercase extensions
-extensions = {'*.mp4', '*.MP4'};
-listeVideos = [];
-
+listeVideos = dir('*.mp4');
 % pick a frame every n (and drop the others)
 downsampling = 20;
-
-for ext = extensions
-    listeVideos = [listeVideos; dir(ext{1})];
-end
 
 numVideos = length(listeVideos);
 fprintf('Total number of videos to process: %d\n', numVideos);
