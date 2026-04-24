@@ -12,7 +12,11 @@ Put it on a tripod, fire, come back 5 hours later. All I needed. Now back to the
 ## The codes back from the dead
 The codes proposed here are revisited versions of all the oddities roting on my hard drive since years to extract cool images from movies and timelapses from the said Osmo Pocket 3 or any GoPro like camera / phone. They basically extract individual frames from a short movie (1000-2000 images maximum), plot average, maximum and minimum, do slit-scans and time slices of the batch of frames. Sometimes it gives something surprisingly cool even with very boring scenes.
 
-Codes are in Matlab but I guess that you are a big boy / girl able to convert them in Python or whatever opensource-my-ass langage of your own.
+Codes are in Matlab but I guess that you are a big boy / girl able to convert them in Python or whatever opensource-my-ass langage of your own like GNU Octave for example.
+
+## How to use
+
+Just drop MP4s into the **/codes** folder, run **Pimp_my_timelapse.m** and enjoy.
 
 # Show time
 ## Circular Slices
