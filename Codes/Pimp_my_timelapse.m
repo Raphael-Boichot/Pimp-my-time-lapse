@@ -5,7 +5,7 @@ close all;
 % --- 1. List all MP4 files in the directory ---
 listeVideos = dir('*.mp4');
 % pick a frame every n (and drop the others)
-downsampling = 20;
+downsampling = 10;
 
 numVideos = length(listeVideos);
 fprintf('Total number of videos to process: %d\n', numVideos);
@@ -21,14 +21,13 @@ for i = 1:numVideos
 
     % Step A: Extract frames from video
     Image_extraction(videoName,downsampling); %Extract individual frames, droping some
-    run('Image_fusion.m'); %Extract maximum, minimum and averga of all frames
-    run('Image_time_slicer.m'); %Create time-slice visualization
-    run('Image_time_slicer_diag.m'); %Create time-slit visualization in diagonal
-    run('Image_time_slicer_circle.m'); %Create time-slit visualization in circle
-    run('Image_time_slicer_block.m'); %Create time-slit visualization in squares
-    run('Image_time_slicer_pie.m'); %Create time-slit visualization in pie chart
-    run('Image_time_slit.m'); %Create time-slit visualization
-    pause(2); % Buffer for figure rendering
+    Image_fusion(videoName(5:18)); %Extract maximum, minimum and averga of all frames
+    Image_time_slicer(videoName(5:18)); %Create time-slice visualization
+    Image_time_slicer_diag(videoName(5:18)); %Create time-slit visualization in diagonal
+    Image_time_slicer_circle(videoName(5:18)); %Create time-slit visualization in circle
+    Image_time_slicer_block(videoName(5:18)); %Create time-slit visualization in squares
+    Image_time_slicer_pie(videoName(5:18)); %Create time-slit visualization in pie chart
+    Image_time_slit(videoName(5:18)); %Create time-slit visualization
 end
 
 fprintf('-------------------------------------------\n');
