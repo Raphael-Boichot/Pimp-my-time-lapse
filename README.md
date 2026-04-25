@@ -38,6 +38,12 @@ Just drop MP4s into the **/codes** folder, run **Pimp_my_timelapse.m** and enjoy
 ![5h_circular_slice_05.png](Examples/5h_circular_slice_05.png)
 1 hour, one image every 5 seconds (downsampled), time flowing from center to border
 
+![5h_circular_slice_06.png](Examples/5h_circular_slice_06.png)
+1 hour, one image every 5 seconds, time flowing from center to border
+
+![5h_circular_slice_07.png](Examples/5h_circular_slice_07.png)
+5 hours, one image every 15 seconds, time flowing from border to center
+
 ## Inclined Slice
 ![5h_inclined_slice_01.png](Examples/5h_inclined_slice_01.png)
 5 hours, one image every 30 seconds, time flowing from bottom left to top right
